@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign_up.css">
+    <title>Create an Account</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="header">
+                <h1>Create an Account</h1>
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="name" required>
+            </div>
+
+            <div class="input-box">
+                <input type="email" placeholder="Email" id="email" required>
+            </div>
+
+            <div class="input-box">
+                <input type="tel" placeholder="Phone Number" id="phone" required>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Password" id="pwd" required>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Confirm Password" id="confirmPwd" required>
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="Student ID" id="studentId" required>
+            </div>
+
+            <div class="input-box">
+                <select id="department" required>
+                    <option value="">Select Department</option>
+                    <option value="Information Technology">Information Technology</option>
+                    <option value="Computer Engineering">Computer Engineering</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="CGPA (0.0 - 10.0)" id="cgpa" min="0" max="10" step="0.1" required>
+            </div>
+
+            <div class="input-box">
+                <button id="submit">Create Account</button>
+            </div>
+
+            <div id="question" class="input-box">
+                Already have an account? 
+                <a href="../Sign_In/sign_in.html">Sign In</a>
+            </div>
+        </form>
+    </div>
+    
+    <script src="sign_up.js"></script>
+</body>
+</html>
